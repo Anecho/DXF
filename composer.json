@@ -1,8 +1,8 @@
 {
-	"name": "anecho/dxf-creator-for-php",
+	"name": "adamasantares/dxf",
 	"description": "A simple DXF creator for PHP",
 	"keywords": ["php", "dxf"],
-	"homepage": "https://github.com/active-programming/DXF-Creator-for-PHP#readme",
+	"homepage": "https://github.com/Anecho/DXF#readme",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
@@ -14,12 +14,9 @@
 	"require": {
 		"php": ">=5.4.0"
 	},
-	"replace": {
-		"adamsantares/dxf": "*"
-	},
 	"autoload": {
 		"psr-4": {
-			"anecho\\dxf-creator-for-php\\": ""
+			"adamasantares\\dxf\\": ""
 		}
 	}
 }

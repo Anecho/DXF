@@ -12,12 +12,12 @@
  * @see http://www.autodesk.com/techpubs/autocad/acad2000/dxf/
  */
 
-namespace adamasantares\dxf;
+namespace anecho\dxf;
 
 
 /**
  * Class LineType
- * @package adamasantares\dxf
+ * @package anecho\dxf
  *
  * @see https://pythonhosted.org/dxfwrite/entities/linepattern.html#linepattern
  */

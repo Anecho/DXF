@@ -7,9 +7,9 @@ require dirname(__FILE__) . '/../Color.php';
 require dirname(__FILE__) . '/../LineType.php';
 require dirname(__FILE__) . '/../Creator.php';
 
-use adamasantares\dxf\Creator;
-use adamasantares\dxf\Color;
-use adamasantares\dxf\LineType;
+use anecho\dxf\Creator;
+use anecho\dxf\Color;
+use anecho\dxf\LineType;
 
 $dxf = new Creator();
 $dxf->setTextStyle('Consolas Regular', 'consola')

@@ -14,7 +14,7 @@
  * @see Common Symbol Table Group Codes http://help.autodesk.com/cloudhelp/2016/ENU/AutoCAD-DXF/files/GUID-8427DD38-7B1F-4B7F-BF66-21ADD1F41295.htm
  *
  * @example <code>
- *     $dxf = new \adamasantares\dxf\Creator( \adamasantares\dxf\Creator::INCHES );
+ *     $dxf = new \anecho\dxf\Creator( \anecho\dxf\Creator::INCHES );
  *     $dxf->addText(26, 46, 0, 'DXF testing', 8)
  *     ->setLayer('cyan', $color::CYAN)
  *     ->addLine(25, 0, 0, 100, 0, 0)
@@ -38,12 +38,12 @@
  * </code>
  */
 
-namespace adamasantares\dxf;
+namespace anecho\dxf;
 
 
 /**
  * Class Creator
- * @package adamasantares\dxf
+ * @package anecho\dxf
  */
 class Creator {
 
@@ -133,8 +133,8 @@ class Creator {
     /**
      * Add new layer to document
      * @param string $name
-     * @param int $color Color code (@see adamasantares\dxf\Color class)
-     * @param string $lineType Line type (@see adamasantares\dxf\LineType class)
+     * @param int $color Color code (@see anecho\dxf\Color class)
+     * @param string $lineType Line type (@see anecho\dxf\LineType class)
      * @return Creator Instance
      */
     public function addLayer($name, $color = Color::GRAY, $lineType = LineType::SOLID)
@@ -151,7 +151,7 @@ class Creator {
     /**
      * Sets current layer for drawing. If layer not exists than it will be created.
      * @param $name
-     * @param int $color  (optional) Color code. Only for new layer (@see adamasantares\dxf\Color class)
+     * @param int $color  (optional) Color code. Only for new layer (@see anecho\dxf\Color class)
      * @param string $lineType (optional) Only for new layer
      * @return Creator Instance
      */
@@ -176,7 +176,7 @@ class Creator {
 
     /**
      * Change color for current layer
-     * @param int $color See adamasantares\dxf\Color constants
+     * @param int $color See anecho\dxf\Color constants
      * @return Creator Instance
      */
     public function setColor($color)
@@ -188,7 +188,7 @@ class Creator {
 
     /**
      * Change line type for current layer
-     * @param int $lineType See adamasantares\dxf\LineType constants
+     * @param int $lineType See anecho\dxf\LineType constants
      * @return Creator Instance
      */
     public function setLineType($lineType)
