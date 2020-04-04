@@ -1,5 +1,5 @@
 {
-	"name": "adamasantares/dxf",
+	"name": "anecho/dxf",
 	"description": "A simple DXF creator for PHP",
 	"keywords": ["php", "dxf"],
 	"homepage": "https://github.com/Anecho/DXF#readme",
@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"adamasantares\\dxf\\": ""
+			"anecho\\dxf\\": ""
 		}
 	}
 }
