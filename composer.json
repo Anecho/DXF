@@ -19,7 +19,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"adamasantares\\dxf\\": ""
+			"anecho\\dxf-creator-for-php\\": ""
 		}
 	}
 }
