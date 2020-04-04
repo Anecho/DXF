@@ -14,6 +14,9 @@
 	"require": {
 		"php": ">=5.4.0"
 	},
+	"replace": {
+		"adamsantares/dxf": "*"
+	},
 	"autoload": {
 		"psr-4": {
 			"adamasantares\\dxf\\": ""
