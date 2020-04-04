@@ -1,5 +1,5 @@
 {
-	"name": "anecho/dxf",
+	"name": "anecho/DXF-Creator-for-PHP",
 	"description": "A simple DXF creator for PHP",
 	"keywords": ["php", "dxf"],
 	"homepage": "https://github.com/active-programming/DXF-Creator-for-PHP#readme",
